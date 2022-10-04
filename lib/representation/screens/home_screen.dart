@@ -7,6 +7,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBarContainerWidget(
+      titleString: 'Home',
+      implementLeading: true,
+      implementTraling: true,
       child: Container(
         color: Colors.amber,
       ),
