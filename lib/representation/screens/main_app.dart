@@ -1,9 +1,10 @@
-import 'package:dlskitsvn/core/constants/color_constants.dart';
-import 'package:dlskitsvn/core/constants/dismension_constants.dart';
-import 'package:dlskitsvn/representation/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
+
+import '../../core/constants/color_constants.dart';
+import '../../core/constants/dismension_constants.dart';
+import 'home_screen.dart';
 
 class MainApp extends StatefulWidget {
   const MainApp({super.key});

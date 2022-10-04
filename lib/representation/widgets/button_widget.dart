@@ -1,9 +1,7 @@
-import 'dart:ui';
-
-import 'package:dlskitsvn/core/constants/color_constants.dart';
-import 'package:dlskitsvn/core/constants/dismension_constants.dart';
 import 'package:flutter/material.dart';
 
+import '../../core/constants/color_constants.dart';
+import '../../core/constants/dismension_constants.dart';
 import '../../core/constants/textstyle_constants.dart';
 
 class ButtonWidget extends StatelessWidget {
