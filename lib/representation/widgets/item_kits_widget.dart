@@ -4,12 +4,13 @@ import 'package:flutter/material.dart';
 import '../../core/constants/textstyle_constants.dart';
 import '../../helpers/image_helper.dart';
 import '../../models/item_model.dart';
+import 'button_small_widget.dart';
 import 'button_widget.dart';
 import 'dash_line.dart';
 
 class ItemKitsWidget extends StatelessWidget {
   const ItemKitsWidget(
-      {required this.itemModel, this.onTap, this.numberOfRoom});
+      {super.key, required this.itemModel, this.onTap, this.numberOfRoom});
   final ItemModel itemModel;
   final Function()? onTap;
   final int? numberOfRoom;
@@ -21,7 +22,7 @@ class ItemKitsWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(kMediumPadding),
         color: Colors.white,
       ),
-      margin: EdgeInsets.only(bottom: kMediumPadding),
+      margin: const EdgeInsets.only(bottom: kMediumPadding),
       padding: const EdgeInsets.all(kDefaultPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -34,27 +35,23 @@ class ItemKitsWidget extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Text(
-                    //   itemModel.roomName,
-                    //   style: TextStyles.defaultStyle.fontHeader.bold,
-                    // ),
                     const SizedBox(
                       height: 30,
                     ),
-                    // Text(
-                    //   'Room Size: ${itemModel.size} m2',
-                    //   maxLines: 2,
-                    // ),
                     Text(
                       itemModel.name,
                       style: TextStyles.defaultStyle.fontHeader.bold,
                     ),
-                    // SizedBox(
-                    //   height: kDefaultPadding,
-                    // ),
-                    // Text(
-                    //   itemModel.utility,
-                    // ),
+                    const SizedBox(
+                      height: kMin3,
+                    ),
+                    SizedBox(
+                      width: 100,
+                      child: ButtonSmallWidget(
+                        data: 'Hướng dẫn',
+                        onTap: () {},
+                      ),
+                    )
                   ],
                 ),
               ),
