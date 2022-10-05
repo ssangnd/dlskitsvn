@@ -38,3 +38,41 @@ class ImageHelper {
     }
   }
 }
+
+class ImageHelperNetwork {
+  static Widget loadFromNetwork(
+    String imageFilePath, {
+    double? width,
+    double? height,
+    BorderRadius? radius,
+    BoxFit? fit,
+    Color? tintColor,
+    Alignment? alignment,
+  }) {
+    if (imageFilePath.toLowerCase().endsWith('svg')) {
+      return ClipRRect(
+        borderRadius: radius ?? BorderRadius.zero,
+        child: SvgPicture.asset(
+          imageFilePath,
+          width: width,
+          height: height,
+          fit: fit ?? BoxFit.contain,
+          color: tintColor,
+          alignment: alignment ?? Alignment.center,
+        ),
+      );
+    } else {
+      return ClipRRect(
+        borderRadius: radius ?? BorderRadius.zero,
+        child: Image.network(
+          imageFilePath,
+          width: width,
+          height: height,
+          fit: fit ?? BoxFit.contain,
+          color: tintColor,
+          alignment: alignment ?? Alignment.center,
+        ),
+      );
+    }
+  }
+}
