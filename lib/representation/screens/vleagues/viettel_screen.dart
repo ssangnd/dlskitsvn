@@ -1,6 +1,7 @@
 import 'package:dlskitsvn/representation/widgets/appbar_container.dart';
 import 'package:dlskitsvn/representation/widgets/item_kits_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../../../models/item_model.dart';
 
@@ -52,16 +53,27 @@ class _ViettelScreenState extends State<ViettelScreen> {
       titleString: 'Viettel FC',
       implementLeading: true,
       implementTraling: true,
-      child: SingleChildScrollView(
-        child: Column(
-          children: listRoom
-              .map(
-                (e) => ItemKitsWidget(
-                  itemModel: e,
-                  onTap: () {},
-                ),
-              )
-              .toList(),
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 50),
+        child: SingleChildScrollView(
+          child: Column(
+            children: listRoom
+                .map(
+                  (e) => ItemKitsWidget(
+                    itemModel: e,
+                    onTap: () {
+                      Clipboard.setData(ClipboardData(text: e.image)).then((_) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(
+                            content: Text('Copy thành công!'),
+                          ),
+                        );
+                      });
+                    },
+                  ),
+                )
+                .toList(),
+          ),
         ),
       ),
     );
