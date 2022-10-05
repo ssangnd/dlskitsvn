@@ -1,3 +1,5 @@
+import '../../representation/screens/vleagues/viettel_screen.dart';
+
 import '../../representation/widgets/appbar_container.dart';
 import 'package:flutter/material.dart';
 
@@ -67,10 +69,10 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                     ImageHelper.loadFromAsset(AssetHelper.icoViettel,
-                        width: 50, height: 50),
+                        width: 65, height: 65),
                     const Color(0xffF77777),
                     () {
-                      // Navigator.of(context).pushNamed(VLeagueScreen.routeName);
+                      Navigator.of(context).pushNamed(ViettelScreen.routeName);
                     },
                     'Viettel',
                   ),
@@ -81,7 +83,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoTphcm,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'TP Hồ Chí Minh'),
@@ -92,7 +94,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoHanoi,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Hà Nội'),
@@ -113,7 +115,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoNamdinh,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Nam Định'),
@@ -124,7 +126,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoDanang,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'SHB Đà Nẵng'),
@@ -135,7 +137,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoSaigon,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Sài Gòn'),
@@ -156,7 +158,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoHaiphong,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Hải Phòng FC'),
@@ -167,7 +169,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoHatinh,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Hồng Lĩnh Hà Tĩnh'),
@@ -178,7 +180,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoHagl,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Hoàng Anh Gia Lai'),
@@ -199,7 +201,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoSlna,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Sông Lam Nghệ An'),
@@ -210,7 +212,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoBinhdinh,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Topenland Bình Định'),
@@ -221,7 +223,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoThanhhoa,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Đông Á Thanh Hóa'),
@@ -242,7 +244,7 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                 Expanded(
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoBinhDuong,
-                          width: 50, height: 50),
+                          width: 65, height: 65),
                       const Color(0xffF77777),
                       () {},
                       'Becamex Bình Dương'),
