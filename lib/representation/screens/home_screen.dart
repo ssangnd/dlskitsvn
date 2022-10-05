@@ -1,5 +1,6 @@
 import 'package:dlskitsvn/helpers/asset_helper.dart';
 import 'package:dlskitsvn/helpers/image_helper.dart';
+import 'package:dlskitsvn/representation/screens/vleague_screen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../core/constants/dismension_constants.dart';
@@ -102,11 +103,14 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               Expanded(
                 child: _buildItemCategory(
-                    ImageHelper.loadFromAsset(AssetHelper.icoVleague,
-                        width: 75, height: 75),
-                    const Color(0xffF77777),
-                    () {},
-                    'VLeague'),
+                  ImageHelper.loadFromAsset(AssetHelper.icoVleague,
+                      width: 75, height: 75),
+                  const Color(0xffF77777),
+                  () {
+                    Navigator.of(context).pushNamed(VLeagueScreen.routeName);
+                  },
+                  'VLeague',
+                ),
               ),
               const SizedBox(
                 width: kDefaultPadding,
