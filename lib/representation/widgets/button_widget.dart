@@ -5,22 +5,32 @@ import '../../core/constants/dismension_constants.dart';
 import '../../core/constants/textstyle_constants.dart';
 
 class ButtonWidget extends StatelessWidget {
-  const ButtonWidget({super.key, required this.title, this.ontap});
-  final String title;
-  final Function()? ontap;
+  const ButtonWidget({Key? key, required this.data, this.onTap, this.color})
+      : super(key: key);
+  final String data;
+  final Function()? onTap;
+  final Color? color;
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: ontap,
+      onTap: onTap,
       child: Container(
-        padding: const EdgeInsets.symmetric(vertical: kDefaultPadding),
+        padding: EdgeInsets.symmetric(vertical: kDefaultPadding),
+        width: double.infinity,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(kMediumPadding),
-            gradient: Gradients.defaultGradientBackground),
+          color: color,
+          borderRadius: BorderRadius.circular(kMediumPadding),
+          gradient: Gradients.defaultGradientBackground,
+        ),
         alignment: Alignment.center,
         child: Text(
-          title,
-          style: TextStyles.defaultStyle.bold.whiteTextColor,
+          data,
+          style: color == null
+              ? TextStyles.defaultStyle.whiteTextColor.bold
+              : TextStyles.defaultStyle.bold.copyWith(
+                  color: ColorPalette.primaryColor,
+                ),
         ),
       ),
     );
