@@ -20,13 +20,24 @@ mixin AssetHelper {
   static const String icoHanoi = 'assets/icons/ico_vleague/ico_hanoi.png';
   static const String icoHaiphong = 'assets/icons/ico_vleague/ico_haiphong.png';
   static const String icoHagl = 'assets/icons/ico_vleague/ico_hagl.png';
-
   static const String icoDanang = 'assets/icons/ico_vleague/ico_danang.png';
   static const String icoSaigon = 'assets/icons/ico_vleague/ico_saigon.png';
   static const String icoBinhDuong =
       'assets/icons/ico_vleague/ico_binhduong.png';
-
   static const String icoBinhdinh = 'assets/icons/ico_vleague/ico_binhdinh.png';
+
+  //ico PremierLeague
+  static const String icoArsenal =
+      'assets/icons/ico_premierleague/ico_arsenal.png';
+  static const String icoChelsea =
+      'assets/icons/ico_premierleague/ico_chelsea.png';
+  static const String icoLiverpool =
+      'assets/icons/ico_premierleague/ico_liverpool.png';
+  static const String icoMancity =
+      'assets/icons/ico_premierleague/ico_mancity.png';
+  static const String icoManu = 'assets/icons/ico_premierleague/ico_manu.png';
+  static const String icoTotenham =
+      'assets/icons/ico_premierleague/ico_tottenham.png';
 
   //Assets in images
   static const String backgroundSplash = 'assets/images/background_splash.png';
