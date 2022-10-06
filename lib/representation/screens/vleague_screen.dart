@@ -1,3 +1,16 @@
+import 'package:dlskitsvn/representation/screens/vleagues/becamexbinhduong_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/binhdinh_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/hagl_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/haiphong_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/hanoi_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/hatinh_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/hcm_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/namdinh_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/saigon_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/shbdanang_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/slna_screen.dart';
+import 'package:dlskitsvn/representation/screens/vleagues/thanhhoa_screen.dart';
+
 import '../../representation/screens/vleagues/viettel_screen.dart';
 
 import '../../representation/widgets/appbar_container.dart';
@@ -84,9 +97,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoTphcm,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'TP Hồ Chí Minh'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(HoChiMinhScreen.routeName);
+                  }, 'TP Hồ Chí Minh'),
                 ),
                 const SizedBox(
                   width: kItemPadding,
@@ -95,9 +108,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoHanoi,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Hà Nội'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(HaNoiScreen.routeName);
+                  }, 'Hà Nội'),
                 ),
                 SizedBox(
                   width: (MediaQuery.of(context).size.width * 0.025),
@@ -116,9 +129,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoNamdinh,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Nam Định'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(NamDinhlScreen.routeName);
+                  }, 'Nam Định'),
                 ),
                 const SizedBox(
                   width: kItemPadding,
@@ -127,9 +140,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoDanang,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'SHB Đà Nẵng'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(ShbDaNangScreen.routeName);
+                  }, 'SHB Đà Nẵng'),
                 ),
                 const SizedBox(
                   width: kItemPadding,
@@ -138,9 +151,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoSaigon,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Sài Gòn'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(SaiGonScreen.routeName);
+                  }, 'Sài Gòn'),
                 ),
                 SizedBox(
                   width: (MediaQuery.of(context).size.width * 0.025),
@@ -159,9 +172,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoHaiphong,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Hải Phòng FC'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(HaiPhongScreen.routeName);
+                  }, 'Hải Phòng FC'),
                 ),
                 const SizedBox(
                   width: kItemPadding,
@@ -170,9 +183,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoHatinh,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Hồng Lĩnh Hà Tĩnh'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(HaTinhScreen.routeName);
+                  }, 'Hồng Lĩnh Hà Tĩnh'),
                 ),
                 const SizedBox(
                   width: kItemPadding,
@@ -181,9 +194,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoHagl,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Hoàng Anh Gia Lai'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(HaglScreen.routeName);
+                  }, 'Hoàng Anh Gia Lai'),
                 ),
                 SizedBox(
                   width: (MediaQuery.of(context).size.width * 0.025),
@@ -202,9 +215,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoSlna,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Sông Lam Nghệ An'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(SlnaScreen.routeName);
+                  }, 'Sông Lam Nghệ An'),
                 ),
                 const SizedBox(
                   width: kItemPadding,
@@ -213,9 +226,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoBinhdinh,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Topenland Bình Định'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(BinhDinhScreen.routeName);
+                  }, 'Topenland Bình Định'),
                 ),
                 const SizedBox(
                   width: kItemPadding,
@@ -224,9 +237,9 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoThanhhoa,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Đông Á Thanh Hóa'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(ThanhHoaScreen.routeName);
+                  }, 'Đông Á Thanh Hóa'),
                 ),
                 SizedBox(
                   width: (MediaQuery.of(context).size.width * 0.025),
@@ -245,9 +258,10 @@ class _VLeagueScreenState extends State<VLeagueScreen> {
                   child: _buildItemCategory(
                       ImageHelper.loadFromAsset(AssetHelper.icoBinhDuong,
                           width: 65, height: 65),
-                      const Color(0xffF77777),
-                      () {},
-                      'Becamex Bình Dương'),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context)
+                        .pushNamed(BecamexBinhDuongScreen.routeName);
+                  }, 'Becamex Bình Dương'),
                 ),
                 SizedBox(
                   width: (MediaQuery.of(context).size.width * 0.3),
