@@ -4,11 +4,6 @@ import 'package:dlskitsvn/representation/screens/serias/intermilan_screen.dart';
 import 'package:dlskitsvn/representation/screens/serias/juventus_screen.dart';
 import 'package:dlskitsvn/representation/screens/serias/napoli_screen.dart';
 
-import '../../representation/screens/ligue1s/monaco_screen.dart';
-import '../../representation/screens/ligue1s/olympiquelyonnais_screen.dart';
-
-import '../../representation/screens/ligue1s/psg_screen.dart';
-
 import '../../representation/widgets/appbar_container.dart';
 import 'package:flutter/material.dart';
 
