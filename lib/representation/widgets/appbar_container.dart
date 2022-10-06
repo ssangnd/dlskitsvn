@@ -97,8 +97,8 @@ class AppBarContainerWidget extends StatelessWidget {
                               ),
                               color: Colors.white,
                             ),
-                            padding: EdgeInsets.all(kItemPadding),
-                            child: Icon(
+                            padding: const EdgeInsets.all(kItemPadding),
+                            child: const Icon(
                               FontAwesomeIcons.bars,
                               size: kDefaultPadding,
                               color: Colors.black,
@@ -110,8 +110,8 @@ class AppBarContainerWidget extends StatelessWidget {
               flexibleSpace: Stack(
                 children: [
                   Container(
-                    decoration: BoxDecoration(
-                      gradient: const LinearGradient(
+                    decoration: const BoxDecoration(
+                      gradient: LinearGradient(
                         colors: [Color(0xff8F67E8), Color(0xff6357CC)],
                       ),
                       borderRadius: BorderRadius.only(
@@ -143,8 +143,8 @@ class AppBarContainerWidget extends StatelessWidget {
             ),
           ),
           Container(
-            margin: EdgeInsets.only(top: 156),
-            padding: paddingContent,
+            margin: const EdgeInsets.only(top: 156),
+            // padding: paddingContent,
             child: child,
           ),
         ],

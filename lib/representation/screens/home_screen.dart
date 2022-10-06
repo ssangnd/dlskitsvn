@@ -1,12 +1,16 @@
-import 'package:dlskitsvn/helpers/asset_helper.dart';
-import 'package:dlskitsvn/helpers/image_helper.dart';
-import 'package:dlskitsvn/representation/screens/vleague_screen.dart';
+import '../../helpers/asset_helper.dart';
+import '../../helpers/image_helper.dart';
+import '../../representation/screens/vleague_screen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import '../../core/constants/dismension_constants.dart';
 import '../../core/constants/textstyle_constants.dart';
 import '../../representation/widgets/appbar_container.dart';
 import 'package:flutter/material.dart';
+
+import 'laliga_screen.dart';
+import 'ligue1_screen.dart';
+import 'premierleague_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -119,9 +123,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: _buildItemCategory(
                     ImageHelper.loadFromAsset(AssetHelper.icoPpremierLeague,
                         width: 75, height: 75),
-                    const Color(0xffF77777),
-                    () {},
-                    'Premier League'),
+                    const Color(0xffF77777), () {
+                  Navigator.of(context).pushNamed(PremierScreen.routeName);
+                }, 'Premier League'),
               ),
               const SizedBox(
                 width: kDefaultPadding,
@@ -130,9 +134,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: _buildItemCategory(
                     ImageHelper.loadFromAsset(AssetHelper.icoLaliga,
                         width: 75, height: 75),
-                    const Color(0xffF77777),
-                    () {},
-                    'Laliga'),
+                    const Color(0xffF77777), () {
+                  Navigator.of(context).pushNamed(LaligaScreen.routeName);
+                }, 'Laliga'),
               ),
               const SizedBox(
                 width: kDefaultPadding,
@@ -148,9 +152,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: _buildItemCategory(
                     ImageHelper.loadFromAsset(AssetHelper.icoLigue1,
                         width: 75, height: 75),
-                    const Color(0xffF77777),
-                    () {},
-                    'Ligue 1'),
+                    const Color(0xffF77777), () {
+                  Navigator.of(context).pushNamed(Ligue1Screen.routeName);
+                }, 'Ligue 1'),
               ),
               const SizedBox(
                 width: kDefaultPadding,

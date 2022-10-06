@@ -1,15 +1,15 @@
-import 'package:dlskitsvn/representation/screens/vleagues/becamexbinhduong_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/binhdinh_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/hagl_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/haiphong_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/hanoi_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/hatinh_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/hcm_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/namdinh_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/saigon_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/shbdanang_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/slna_screen.dart';
-import 'package:dlskitsvn/representation/screens/vleagues/thanhhoa_screen.dart';
+import '../../representation/screens/vleagues/becamexbinhduong_screen.dart';
+import '../../representation/screens/vleagues/binhdinh_screen.dart';
+import '../../representation/screens/vleagues/hagl_screen.dart';
+import '../../representation/screens/vleagues/haiphong_screen.dart';
+import '../../representation/screens/vleagues/hanoi_screen.dart';
+import '../../representation/screens/vleagues/hatinh_screen.dart';
+import '../../representation/screens/vleagues/hcm_screen.dart';
+import '../../representation/screens/vleagues/namdinh_screen.dart';
+import '../../representation/screens/vleagues/saigon_screen.dart';
+import '../../representation/screens/vleagues/shbdanang_screen.dart';
+import '../../representation/screens/vleagues/slna_screen.dart';
+import '../../representation/screens/vleagues/thanhhoa_screen.dart';
 
 import '../../representation/screens/vleagues/viettel_screen.dart';
 
