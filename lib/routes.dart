@@ -1,3 +1,9 @@
+import '../../representation/screens/bundesligas/dortmund_screen.dart';
+import '../../representation/screens/bundesligas/freiburg_screen.dart';
+
+import '../../representation/screens/bundesliga_screen.dart';
+import '../../representation/screens/seria_screen.dart';
+
 import '../../representation/screens/ligue1s/monaco_screen.dart';
 import '../../representation/screens/ligue1s/olympiquelyonnais_screen.dart';
 import '../../representation/screens/ligue1s/psg_screen.dart';
@@ -30,6 +36,7 @@ import './representation/screens/vleagues/slna_screen.dart';
 import './representation/screens/vleagues/thanhhoa_screen.dart';
 import 'package:flutter/material.dart';
 
+import 'representation/screens/bundesligas/bayernmunich_screen.dart';
 import 'representation/screens/guide_screen.dart';
 import 'representation/screens/laliga_screen.dart';
 import 'representation/screens/laligas/valencia_screen.dart';
@@ -46,6 +53,8 @@ final Map<String, WidgetBuilder> routes = {
   PremierScreen.routeName: (context) => const PremierScreen(),
   LaligaScreen.routeName: (context) => const LaligaScreen(),
   Ligue1Screen.routeName: (context) => const Ligue1Screen(),
+  BundesligaScreen.routeName: (context) => const BundesligaScreen(),
+  SeriaScreen.routeName: (context) => const SeriaScreen(),
 
   GuideScreen.routeName: (context) => const GuideScreen(),
   // Vleague
@@ -90,4 +99,10 @@ final Map<String, WidgetBuilder> routes = {
       const OlympiqueLyonnaislScreen(),
   OlympiqueMarseilleScareen.routeName: (context) =>
       const OlympiqueMarseilleScareen(),
+
+  //Bundesliga
+  FreiburgScreen.routeName: (context) => const FreiburgScreen(),
+  BorussiaDortmundlScreen.routeName: (context) =>
+      const BorussiaDortmundlScreen(),
+  BayerMunichScreen.routeName: (context) => const BayerMunichScreen(),
 };

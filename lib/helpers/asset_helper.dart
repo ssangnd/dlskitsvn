@@ -60,6 +60,12 @@ mixin AssetHelper {
   static const String icoOlylyon =
       'assets/icons/ico_ligue1/ico_olympiquelyon.png';
 
+  //ico Bundesliga
+  static const String icoFreibug =
+      'assets/icons/ico_bundesliga/ico_freiburg.png';
+  static const String icoDortMund =
+      'assets/icons/ico_bundesliga/ico_dortmund.png';
+  static const String icoBayer = 'assets/icons/ico_bundesliga/ico_bayer.png';
   //Assets in images
   static const String backgroundSplash = 'assets/images/background_splash.png';
   static const String circleSplash = 'assets/images/circle_splash.png';

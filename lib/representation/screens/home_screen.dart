@@ -1,3 +1,6 @@
+import '../../representation/screens/bundesliga_screen.dart';
+import '../../representation/screens/seria_screen.dart';
+
 import '../../helpers/asset_helper.dart';
 import '../../helpers/image_helper.dart';
 import '../../representation/screens/vleague_screen.dart';
@@ -163,9 +166,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: _buildItemCategory(
                     ImageHelper.loadFromAsset(AssetHelper.icoBundesliga,
                         width: 75, height: 75),
-                    const Color(0xffF77777),
-                    () {},
-                    'Bundesliga'),
+                    const Color(0xffF77777), () {
+                  Navigator.of(context).pushNamed(BundesligaScreen.routeName);
+                }, 'Bundesliga'),
               ),
               const SizedBox(
                 width: kDefaultPadding,
@@ -174,9 +177,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: _buildItemCategory(
                     ImageHelper.loadFromAsset(AssetHelper.icoSeria,
                         width: 75, height: 75),
-                    const Color(0xffF77777),
-                    () {},
-                    'Seria'),
+                    const Color(0xffF77777), () {
+                  Navigator.of(context).pushNamed(SeriaScreen.routeName);
+                }, 'Seria'),
               ),
               const SizedBox(
                 width: kDefaultPadding,
