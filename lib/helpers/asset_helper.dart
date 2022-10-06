@@ -66,6 +66,16 @@ mixin AssetHelper {
   static const String icoDortMund =
       'assets/icons/ico_bundesliga/ico_dortmund.png';
   static const String icoBayer = 'assets/icons/ico_bundesliga/ico_bayer.png';
+
+  //ico Seria
+
+  static const String icoAcMilan = 'assets/icons/ico_seria/ico_acmilan.png';
+  static const String icoIntermilan =
+      'assets/icons/ico_seria/ico_intermilan.png';
+  static const String icoJuventus = 'assets/icons/ico_seria/ico_juventus.png';
+  static const String icoNapoli = 'assets/icons/ico_seria/ico_napoli.png';
+  static const String icoRoma = 'assets/icons/ico_seria/ico_roma.png';
+
   //Assets in images
   static const String backgroundSplash = 'assets/images/background_splash.png';
   static const String circleSplash = 'assets/images/circle_splash.png';

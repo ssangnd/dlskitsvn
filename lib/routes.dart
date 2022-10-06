@@ -1,3 +1,8 @@
+import 'package:dlskitsvn/representation/screens/serias/acmilan_screen.dart';
+import 'package:dlskitsvn/representation/screens/serias/asroma_screen.dart';
+import 'package:dlskitsvn/representation/screens/serias/intermilan_screen.dart';
+import 'package:dlskitsvn/representation/screens/serias/juventus_screen.dart';
+
 import '../../representation/screens/bundesligas/dortmund_screen.dart';
 import '../../representation/screens/bundesligas/freiburg_screen.dart';
 
@@ -43,6 +48,7 @@ import 'representation/screens/laligas/valencia_screen.dart';
 import 'representation/screens/ligue1_screen.dart';
 import 'representation/screens/ligue1s/olympiquemarseille_screen.dart';
 import 'representation/screens/main_app.dart';
+import 'representation/screens/serias/napoli_screen.dart';
 import 'representation/screens/vleague_screen.dart';
 
 import 'representation/screens/vleagues/viettel_screen.dart';
@@ -102,7 +108,13 @@ final Map<String, WidgetBuilder> routes = {
 
   //Bundesliga
   FreiburgScreen.routeName: (context) => const FreiburgScreen(),
-  BorussiaDortmundlScreen.routeName: (context) =>
-      const BorussiaDortmundlScreen(),
+  BorussiaDortmundlScreen.routeName: (context) => BorussiaDortmundlScreen(),
   BayerMunichScreen.routeName: (context) => const BayerMunichScreen(),
+
+  //Seria
+  NapoliScreen.routeName: (context) => const NapoliScreen(),
+  JuventuslScreen.routeName: (context) => const JuventuslScreen(),
+  AcMilanScreen.routeName: (context) => const AcMilanScreen(),
+  AsRomaScreen.routeName: (context) => const AsRomaScreen(),
+  InterMilanScreen.routeName: (context) => const InterMilanScreen(),
 };
