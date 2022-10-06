@@ -39,6 +39,27 @@ mixin AssetHelper {
   static const String icoTotenham =
       'assets/icons/ico_premierleague/ico_tottenham.png';
 
+  //ico Laliga
+  static const String icoAthleticbilbao =
+      'assets/icons/ico_laliga/ico_athleticbilbao.png';
+  static const String icoBarca = 'assets/icons/ico_laliga/ico_bacerona.png';
+  static const String icoRealbetis =
+      'assets/icons/ico_laliga/ico_realbetis.png';
+  static const String icoRealmadrid =
+      'assets/icons/ico_laliga/ico_realmadrid.png';
+  static const String icoRealsociedad =
+      'assets/icons/ico_laliga/ico_realsociedad.png';
+  static const String icoValencia = 'assets/icons/ico_laliga/ico_valencia.png';
+  static const String icoVillarreal =
+      'assets/icons/ico_laliga/ico_villarreal.png';
+
+  //ico Ligue 1
+  static const String icoPsg = 'assets/icons/ico_ligue1/ico_psg.png';
+  static const String icoMacsay = 'assets/icons/ico_ligue1/ico_macsay.png';
+  static const String icoMonaco = 'assets/icons/ico_ligue1/ico_monoco.png';
+  static const String icoOlylyon =
+      'assets/icons/ico_ligue1/ico_olympiquelyon.png';
+
   //Assets in images
   static const String backgroundSplash = 'assets/images/background_splash.png';
   static const String circleSplash = 'assets/images/circle_splash.png';

@@ -69,6 +69,8 @@ flutter:
     - assets/icons/
     - assets/icons/ico_vleague/
     - assets/icons/ico_premierleague/
+    - assets/icons/ico_laliga/
+    - assets/icons/ico_ligue1/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
