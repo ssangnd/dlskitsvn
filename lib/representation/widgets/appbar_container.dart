@@ -90,18 +90,27 @@ class AppBarContainerWidget extends StatelessWidget {
                           ),
                         ),
                         if (implementTraling)
-                          Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(
-                                kDefaultPadding,
+                          GestureDetector(
+                            onTap: () {
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(
+                                  content: Text('Chức năng đang phát triển!'),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(
+                                  kDefaultPadding,
+                                ),
+                                color: Colors.white,
                               ),
-                              color: Colors.white,
-                            ),
-                            padding: const EdgeInsets.all(kItemPadding),
-                            child: const Icon(
-                              FontAwesomeIcons.bars,
-                              size: kDefaultPadding,
-                              color: Colors.black,
+                              padding: const EdgeInsets.all(kItemPadding),
+                              child: const Icon(
+                                FontAwesomeIcons.bars,
+                                size: kDefaultPadding,
+                                color: Colors.black,
+                              ),
                             ),
                           ),
                       ],
