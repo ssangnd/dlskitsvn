@@ -101,9 +101,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 color: Colors.white,
               ),
               padding: const EdgeInsets.all(kItemPadding),
-              // child: ImageHelper.loadFromAsset(
-              //   AssetHelper.person,
-              // ),
+              child: ImageHelper.loadFromAsset(
+                AssetHelper.icoApp,
+              ),
             ),
           ],
         ),

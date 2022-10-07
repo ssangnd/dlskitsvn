@@ -2,6 +2,7 @@ mixin AssetHelper {
   //Assets in icons
   static const String icoOvalTop = 'assets/icons/ico_oval_top.png';
   static const String icoOvalBottom = 'assets/icons/ico_oval_bottom.png';
+  static const String icoApp = 'assets/icons/icon_dlsvn.png';
 
   //logo league
   static const String icoVleague = 'assets/icons/ico_vleague.png';
