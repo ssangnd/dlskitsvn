@@ -56,25 +56,25 @@ class _TottenhamlScreenState extends State<TottenhamlScreen> {
       image: 'https://i.imgur.com/lWLktPp.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/of0o4pO.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/58cp7EW.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/h3eB1HU.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 5,
+      price: 7,
     ),
   ];
   @override

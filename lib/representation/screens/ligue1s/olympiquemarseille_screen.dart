@@ -57,25 +57,25 @@ class _OlympiqueMarseilleScareenState extends State<OlympiqueMarseilleScareen> {
       image: 'https://i.imgur.com/1yydrJx.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/Jo5hajn.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/6BcECDf.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/Yw3Jw7O.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 6,
+      price: 7,
     ),
   ];
   @override

@@ -57,25 +57,25 @@ class _ParisSaintGermainlScreenState extends State<ParisSaintGermainlScreen> {
       image: 'https://i.imgur.com/ns9ttqY.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/9eSdAIb.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/UsaD9bh.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/QzpfRSk.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 6,
+      price: 7,
     ),
   ];
   @override

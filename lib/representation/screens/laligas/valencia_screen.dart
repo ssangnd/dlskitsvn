@@ -56,25 +56,25 @@ class _ValenciaScreenState extends State<ValenciaScreen> {
       image: 'https://i.imgur.com/Xa4Dg9D.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/HNbY9sO.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/3gL3hV3.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/vg0n01V.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 6,
+      price: 7,
     ),
   ];
   @override

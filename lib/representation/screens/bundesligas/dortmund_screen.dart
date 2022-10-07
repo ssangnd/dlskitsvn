@@ -57,25 +57,25 @@ class _BorussiaDortmundlScreenState extends State<BorussiaDortmundlScreen> {
       image: 'https://i.imgur.com/oG86kPi.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/zdNC6WC.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/AsHTa5w.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/ayZiAwz.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 6,
+      price: 7,
     ),
   ];
   @override

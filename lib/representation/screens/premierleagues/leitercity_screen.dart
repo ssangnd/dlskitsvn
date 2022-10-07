@@ -56,25 +56,25 @@ class _LeicesterCityScreenState extends State<LeicesterCityScreen> {
       image: 'https://i.imgur.com/tEeAcPx.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/7vjDlZo.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/Rgvm8h2.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/MdYsFup.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 6,
+      price: 7,
     ),
   ];
   @override

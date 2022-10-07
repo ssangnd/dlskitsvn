@@ -56,19 +56,19 @@ class _MonacoScreenState extends State<MonacoScreen> {
       image: 'https://i.imgur.com/NMNCb6b.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/jB07q26.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/pufnWqG.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
   ];
   @override

@@ -56,25 +56,25 @@ class _ManchesterUnitedScreenState extends State<ManchesterUnitedScreen> {
       image: 'https://i.imgur.com/o5FOwX5.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/Im7loRP.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/jjoIDI0.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/QPf7Cf1.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 5,
+      price: 7,
     ),
   ];
   @override

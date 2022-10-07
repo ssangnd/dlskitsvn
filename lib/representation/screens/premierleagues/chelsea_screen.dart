@@ -56,25 +56,25 @@ class _ChelseaScreenState extends State<ChelseaScreen> {
       image: 'https://i.imgur.com/UNqj5hl.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/K1AxTcP.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/XckGAy1.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/15b736X.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 5,
+      price: 7,
     ),
   ];
   @override

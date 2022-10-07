@@ -35,7 +35,7 @@ class _EvertonScreenState extends State<EvertonScreen> {
 
   final List<ItemModel> listRoom = [
     ItemModel(
-      image: 'https://i.imgur.com/odyzGBQ.png',
+      image: 'https://i.imgur.com/Pgnzfz2.png',
       name: 'Logo',
       size: 40,
       price: 1,
@@ -56,25 +56,25 @@ class _EvertonScreenState extends State<EvertonScreen> {
       image: 'https://i.imgur.com/lUMCCfT.png',
       name: 'Third Kit',
       size: 40,
-      price: 3,
+      price: 4,
     ),
     ItemModel(
       image: 'https://i.imgur.com/CSG7DOj.png',
       name: 'Goalkeeper Home Kit',
       size: 40,
-      price: 4,
+      price: 5,
     ),
     ItemModel(
       image: 'https://i.imgur.com/l05EVOF.png',
       name: 'Goalkeeper Away Kit',
       size: 40,
-      price: 5,
+      price: 6,
     ),
     ItemModel(
       image: 'https://i.imgur.com/mvxnYh2.png',
       name: 'Goalkeeper Third Kit',
       size: 40,
-      price: 6,
+      price: 7,
     ),
   ];
   @override
