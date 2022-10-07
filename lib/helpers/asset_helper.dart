@@ -110,4 +110,11 @@ mixin AssetHelper {
   //Assets in images
   static const String backgroundSplash = 'assets/images/background_splash.png';
   static const String circleSplash = 'assets/images/circle_splash.png';
+  //Guide
+  static const String imgaeGuide1 = 'assets/images/img_guide1.png';
+  static const String imgaeGuide2 = 'assets/images/img_guide2.png';
+  static const String imgaeGuide3 = 'assets/images/img_guide3.png';
+  static const String imgaeGuide4 = 'assets/images/img_guide4.png';
+  static const String imgaeGuide5 = 'assets/images/img_guide5.png';
+  static const String imgaeGuide6 = 'assets/images/img_guide6.png';
 }

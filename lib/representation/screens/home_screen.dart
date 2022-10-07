@@ -1,5 +1,5 @@
-import 'package:dlskitsvn/representation/screens/national_screen.dart';
-import 'package:dlskitsvn/representation/widgets/button_widget.dart';
+import '../../representation/screens/national_screen.dart';
+import '../../representation/widgets/button_widget.dart';
 
 import '../../representation/screens/bundesliga_screen.dart';
 import '../../representation/screens/seria_screen.dart';
@@ -69,7 +69,8 @@ class _HomeScreenState extends State<HomeScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Xin chào!',
+                // Text('Xin chào!',
+                Text('DLS Kits Viet Nam',
                     style:
                         TextStyles.defaultStyle.fontHeader.whiteTextColor.bold),
                 const SizedBox(

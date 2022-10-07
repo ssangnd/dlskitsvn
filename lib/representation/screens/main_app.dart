@@ -1,3 +1,4 @@
+import 'package:dlskitsvn/representation/screens/guide_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
@@ -21,11 +22,9 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: IndexedStack(index: _currentIndex, children: [
-        const HomeScreen(),
-        Container(
-          color: Colors.red,
-        )
+      body: IndexedStack(index: _currentIndex, children: const [
+        HomeScreen(),
+        GuideScreen(),
       ]),
       bottomNavigationBar: SalomonBottomBar(
         currentIndex: _currentIndex,
