@@ -81,6 +81,13 @@ class TextStyles {
     fontWeight: FontWeight.w400,
     height: 16 / 14,
   );
+
+  static const TextStyle defaultStyle18 = TextStyle(
+    fontSize: 18,
+    color: ColorPalette.text1Color,
+    fontWeight: FontWeight.w700,
+    height: 18 / 14,
+  );
 }
 
 // How to use?

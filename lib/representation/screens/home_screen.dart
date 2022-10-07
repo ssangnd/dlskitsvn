@@ -1,3 +1,6 @@
+import 'package:dlskitsvn/representation/screens/national_screen.dart';
+import 'package:dlskitsvn/representation/widgets/button_widget.dart';
+
 import '../../representation/screens/bundesliga_screen.dart';
 import '../../representation/screens/seria_screen.dart';
 
@@ -108,6 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Row(
             children: [
+              const SizedBox(width: kDefaultPadding),
               Expanded(
                 child: _buildItemCategory(
                   ImageHelper.loadFromAsset(AssetHelper.icoVleague,
@@ -151,6 +155,9 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           Row(
             children: [
+              const SizedBox(
+                width: kDefaultPadding,
+              ),
               Expanded(
                 child: _buildItemCategory(
                     ImageHelper.loadFromAsset(AssetHelper.icoLigue1,
@@ -185,6 +192,41 @@ class _HomeScreenState extends State<HomeScreen> {
                 width: kDefaultPadding,
               ),
             ],
+          ),
+          const SizedBox(
+            height: kMediumPadding * 1.5,
+          ),
+          Container(
+            padding: const EdgeInsets.symmetric(
+                horizontal: kMediumPadding, vertical: kMediumPadding),
+            margin:
+                const EdgeInsets.symmetric(horizontal: kDefaultPadding * 1.3),
+            decoration: const BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.all(
+                Radius.circular(kDefaultPadding * 2),
+              ),
+            ),
+            child: Row(
+              children: [
+                Expanded(
+                  flex: 2,
+                  child: Text(
+                    "Đội tuyển Quốc Gia",
+                    style: TextStyles.defaultStyle18.subTitleTextColor,
+                  ),
+                ),
+                Expanded(
+                  flex: 1,
+                  child: ButtonWidget(
+                      data: 'Xem chi tiết',
+                      onTap: () {
+                        Navigator.of(context)
+                            .pushNamed(NationalScreen.routeName);
+                      }),
+                ),
+              ],
+            ),
           ),
         ],
       ),

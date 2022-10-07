@@ -1,7 +1,24 @@
-import 'package:dlskitsvn/representation/screens/serias/acmilan_screen.dart';
-import 'package:dlskitsvn/representation/screens/serias/asroma_screen.dart';
-import 'package:dlskitsvn/representation/screens/serias/intermilan_screen.dart';
-import 'package:dlskitsvn/representation/screens/serias/juventus_screen.dart';
+import '../../representation/screens/nationals/australia_screen.dart';
+import '../../representation/screens/nationals/belgium_screen.dart';
+import '../../representation/screens/nationals/brazil_screen.dart';
+import '../../representation/screens/nationals/hungary_screen.dart';
+import '../../representation/screens/nationals/us_screen.dart';
+
+import '../../representation/screens/nationals/argentina_screen.dart';
+import '../../representation/screens/nationals/ecuado_screen.dart';
+import '../../representation/screens/nationals/england_screen.dart';
+import '../../representation/screens/nationals/france_screen.dart';
+import '../../representation/screens/nationals/italia_screen.dart';
+import '../../representation/screens/nationals/japan_screen.dart';
+import '../../representation/screens/nationals/mexico_screen.dart';
+import '../../representation/screens/nationals/portugal_screen.dart';
+
+import '../../representation/screens/national_screen.dart';
+import '../../representation/screens/nationals/spain_screen.dart';
+import '../../representation/screens/serias/acmilan_screen.dart';
+import '../../representation/screens/serias/asroma_screen.dart';
+import '../../representation/screens/serias/intermilan_screen.dart';
+import '../../representation/screens/serias/juventus_screen.dart';
 
 import '../../representation/screens/bundesligas/dortmund_screen.dart';
 import '../../representation/screens/bundesligas/freiburg_screen.dart';
@@ -48,6 +65,10 @@ import 'representation/screens/laligas/valencia_screen.dart';
 import 'representation/screens/ligue1_screen.dart';
 import 'representation/screens/ligue1s/olympiquemarseille_screen.dart';
 import 'representation/screens/main_app.dart';
+import 'representation/screens/nationals/chile_screen.dart';
+import 'representation/screens/nationals/germany_screen.dart';
+import 'representation/screens/nationals/korea_screen.dart';
+import 'representation/screens/nationals/vn_screen.dart';
 import 'representation/screens/serias/napoli_screen.dart';
 import 'representation/screens/vleague_screen.dart';
 
@@ -61,6 +82,7 @@ final Map<String, WidgetBuilder> routes = {
   Ligue1Screen.routeName: (context) => const Ligue1Screen(),
   BundesligaScreen.routeName: (context) => const BundesligaScreen(),
   SeriaScreen.routeName: (context) => const SeriaScreen(),
+  NationalScreen.routeName: (context) => const NationalScreen(),
 
   GuideScreen.routeName: (context) => const GuideScreen(),
   // Vleague
@@ -108,7 +130,8 @@ final Map<String, WidgetBuilder> routes = {
 
   //Bundesliga
   FreiburgScreen.routeName: (context) => const FreiburgScreen(),
-  BorussiaDortmundlScreen.routeName: (context) => BorussiaDortmundlScreen(),
+  BorussiaDortmundlScreen.routeName: (context) =>
+      const BorussiaDortmundlScreen(),
   BayerMunichScreen.routeName: (context) => const BayerMunichScreen(),
 
   //Seria
@@ -117,4 +140,24 @@ final Map<String, WidgetBuilder> routes = {
   AcMilanScreen.routeName: (context) => const AcMilanScreen(),
   AsRomaScreen.routeName: (context) => const AsRomaScreen(),
   InterMilanScreen.routeName: (context) => const InterMilanScreen(),
+
+  //National
+  SpainlScreen.routeName: (context) => const SpainlScreen(),
+  JapanScreen.routeName: (context) => const JapanScreen(),
+  VietNamScreen.routeName: (context) => const VietNamScreen(),
+  FranceScreen.routeName: (context) => const FranceScreen(),
+  PortugalScreen.routeName: (context) => const PortugalScreen(),
+  ArgentinaScreen.routeName: (context) => const ArgentinaScreen(),
+  ItalialScreen.routeName: (context) => const ItalialScreen(),
+  EnglandScreen.routeName: (context) => const EnglandScreen(),
+  MexicoScreen.routeName: (context) => const MexicoScreen(),
+  EcuadorScreen.routeName: (context) => const EcuadorScreen(),
+  KoreaScreen.routeName: (context) => const KoreaScreen(),
+  ChileScreen.routeName: (context) => const ChileScreen(),
+  HungaryScreen.routeName: (context) => const HungaryScreen(),
+  AustriaScreen.routeName: (context) => const AustriaScreen(),
+  UsScreen.routeName: (context) => const UsScreen(),
+  BrazilScreen.routeName: (context) => const BrazilScreen(),
+  BelgiumScreen.routeName: (context) => const BelgiumScreen(),
+  GermanyScreen.routeName: (context) => const GermanyScreen(),
 };

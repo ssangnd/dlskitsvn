@@ -76,6 +76,31 @@ mixin AssetHelper {
   static const String icoNapoli = 'assets/icons/ico_seria/ico_napoli.png';
   static const String icoRoma = 'assets/icons/ico_seria/ico_roma.png';
 
+  //ico National
+
+  static const String icoSpain = 'assets/icons/ico_nationnal/ico_spain.png';
+  static const String icoJapan = 'assets/icons/ico_nationnal/ico_japan.png';
+  static const String icoVn = 'assets/icons/ico_nationnal/ico_vn.png';
+  static const String icoFrance = 'assets/icons/ico_nationnal/ico_france.png';
+  static const String icoPortugal =
+      'assets/icons/ico_nationnal/ico_potugal.png';
+  static const String icoArgentina =
+      'assets/icons/ico_nationnal/ico_argentina.png';
+  static const String icoItalia = 'assets/icons/ico_nationnal/ico_italy.png';
+  static const String icoEngland =
+      'assets/icons/ico_nationnal/ico_eangland.png';
+  static const String icoMexico = 'assets/icons/ico_nationnal/ico_mexico.png';
+  static const String icoKorea = 'assets/icons/ico_nationnal/ico_korea.png';
+  static const String icoEcuado = 'assets/icons/ico_nationnal/ico_ecuado.png';
+  static const String icoChile = 'assets/icons/ico_nationnal/ico_chile.png';
+  static const String icoHungary = 'assets/icons/ico_nationnal/ico_hungary.png';
+  static const String icoUs = 'assets/icons/ico_nationnal/ico_usa.png';
+  static const String icoAustralia =
+      'assets/icons/ico_nationnal/ico_austraulia.png';
+  static const String icoBrazil = 'assets/icons/ico_nationnal/ico_brazil.png';
+  static const String icoBelgium = 'assets/icons/ico_nationnal/ico_begun.png';
+  static const String icoGermany = 'assets/icons/ico_nationnal/ico_germany.png';
+
   //Assets in images
   static const String backgroundSplash = 'assets/images/background_splash.png';
   static const String circleSplash = 'assets/images/circle_splash.png';
