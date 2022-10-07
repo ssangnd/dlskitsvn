@@ -1,3 +1,7 @@
+import '../../representation/screens/premierleagues/everton_screen.dart';
+import '../../representation/screens/premierleagues/leitercity_screen.dart';
+import '../../representation/screens/premierleagues/southamton_screen.dart';
+
 import '../../representation/screens/nationals/australia_screen.dart';
 import '../../representation/screens/nationals/belgium_screen.dart';
 import '../../representation/screens/nationals/brazil_screen.dart';
@@ -108,6 +112,9 @@ final Map<String, WidgetBuilder> routes = {
   ManCityScreen.routeName: (context) => const ManCityScreen(),
   ManchesterUnitedScreen.routeName: (context) => const ManchesterUnitedScreen(),
   TottenhamlScreen.routeName: (context) => const TottenhamlScreen(),
+  SouthamptonlScreen.routeName: (context) => const SouthamptonlScreen(),
+  LeicesterCityScreen.routeName: (context) => const LeicesterCityScreen(),
+  EvertonScreen.routeName: (context) => const EvertonScreen(),
 
   //Laliga
 

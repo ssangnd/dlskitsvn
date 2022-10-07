@@ -1,3 +1,7 @@
+import 'package:dlskitsvn/representation/screens/premierleagues/everton_screen.dart';
+import 'package:dlskitsvn/representation/screens/premierleagues/leitercity_screen.dart';
+import 'package:dlskitsvn/representation/screens/premierleagues/southamton_screen.dart';
+
 import '../../representation/screens/premierleagues/asernal_screen.dart';
 import '../../representation/screens/premierleagues/chelsea_screen.dart';
 import '../../representation/screens/premierleagues/liverpool_screen.dart';
@@ -156,49 +160,51 @@ class _PremierScreenState extends State<PremierScreen> {
             const SizedBox(
               height: kMediumPadding,
             ),
-            // Row(
-            //   children: [
-            //     SizedBox(
-            //       width: (MediaQuery.of(context).size.width * 0.025),
-            //     ),
-            //     Expanded(
-            //       child: _buildItemCategory(
-            //           ImageHelper.loadFromAsset(AssetHelper.icoHaiphong,
-            //               width: 65, height: 65),
-            //           const Color(0xffF77777), () {
-            //         Navigator.of(context).pushNamed(HaiPhongScreen.routeName);
-            //       }, 'Hải Phòng FC'),
-            //     ),
-            //     const SizedBox(
-            //       width: kItemPadding,
-            //     ),
-            //     Expanded(
-            //       child: _buildItemCategory(
-            //           ImageHelper.loadFromAsset(AssetHelper.icoHatinh,
-            //               width: 65, height: 65),
-            //           const Color(0xffF77777), () {
-            //         Navigator.of(context).pushNamed(HaTinhScreen.routeName);
-            //       }, 'Hồng Lĩnh Hà Tĩnh'),
-            //     ),
-            //     const SizedBox(
-            //       width: kItemPadding,
-            //     ),
-            //     Expanded(
-            //       child: _buildItemCategory(
-            //           ImageHelper.loadFromAsset(AssetHelper.icoHagl,
-            //               width: 65, height: 65),
-            //           const Color(0xffF77777), () {
-            //         Navigator.of(context).pushNamed(HaglScreen.routeName);
-            //       }, 'Hoàng Anh Gia Lai'),
-            //     ),
-            //     SizedBox(
-            //       width: (MediaQuery.of(context).size.width * 0.025),
-            //     ),
-            //   ],
-            // ),
-            // const SizedBox(
-            //   height: kMediumPadding,
-            // ),
+            Row(
+              children: [
+                SizedBox(
+                  width: (MediaQuery.of(context).size.width * 0.025),
+                ),
+                Expanded(
+                  child: _buildItemCategory(
+                      ImageHelper.loadFromAsset(AssetHelper.icoSouthamton,
+                          width: 65, height: 65),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context)
+                        .pushNamed(SouthamptonlScreen.routeName);
+                  }, 'Southampton FC'),
+                ),
+                const SizedBox(
+                  width: kItemPadding,
+                ),
+                Expanded(
+                  child: _buildItemCategory(
+                      ImageHelper.loadFromAsset(AssetHelper.icoLestercity,
+                          width: 65, height: 65),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context)
+                        .pushNamed(LeicesterCityScreen.routeName);
+                  }, 'Leicester City'),
+                ),
+                const SizedBox(
+                  width: kItemPadding,
+                ),
+                Expanded(
+                  child: _buildItemCategory(
+                      ImageHelper.loadFromAsset(AssetHelper.icoEverton,
+                          width: 65, height: 65),
+                      const Color(0xffF77777), () {
+                    Navigator.of(context).pushNamed(EvertonScreen.routeName);
+                  }, 'Everton FC '),
+                ),
+                SizedBox(
+                  width: (MediaQuery.of(context).size.width * 0.025),
+                ),
+              ],
+            ),
+            const SizedBox(
+              height: kMediumPadding,
+            ),
             // Row(
             //   children: [
             //     SizedBox(

@@ -38,6 +38,12 @@ mixin AssetHelper {
   static const String icoManu = 'assets/icons/ico_premierleague/ico_manu.png';
   static const String icoTotenham =
       'assets/icons/ico_premierleague/ico_tottenham.png';
+  static const String icoEverton =
+      'assets/icons/ico_premierleague/ico_everton.png';
+  static const String icoLestercity =
+      'assets/icons/ico_premierleague/ico_lestercity.png';
+  static const String icoSouthamton =
+      'assets/icons/ico_premierleague/ico_southamton.png';
 
   //ico Laliga
   static const String icoAthleticbilbao =
