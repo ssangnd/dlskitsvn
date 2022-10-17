@@ -121,7 +121,7 @@ class AppBarContainerWidget extends StatelessWidget {
                   Container(
                     decoration: const BoxDecoration(
                       gradient: LinearGradient(
-                        colors: [Color(0xff8F67E8), Color(0xff6357CC)],
+                        colors: [Color(0xff9ED1D1D), Color(0xF8ED1D1D)],
                       ),
                       borderRadius: BorderRadius.only(
                         bottomLeft: Radius.circular(35),

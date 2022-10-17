@@ -18,7 +18,7 @@ class DlsKitsVnApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dls Kits Vn App',
+      title: 'DLS Kits Viet Nam',
       theme: ThemeData(
         primaryColor: ColorPalette.primaryColor,
         scaffoldBackgroundColor: ColorPalette.backgroundScaffoldColor,

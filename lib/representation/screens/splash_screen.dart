@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   void _routeToIntroScreen() async {
-    await Future.delayed(const Duration(milliseconds: 1000));
+    await Future.delayed(const Duration(milliseconds: 10000));
     // ignore: use_build_context_synchronously
     Navigator.of(context).pushNamed(MainApp.routeName);
   }
@@ -36,11 +36,11 @@ class _SplashScreenState extends State<SplashScreen> {
             fit: BoxFit.fitWidth,
           ),
         ),
-        Positioned.fill(
-          child: ImageHelper.loadFromAsset(
-            AssetHelper.circleSplash,
-          ),
-        ),
+        // Positioned.fill(
+        //   child: ImageHelper.loadFromAsset(
+        //     AssetHelper.circleSplash,
+        //   ),
+        // ),
       ],
     );
   }
